@@ -19,29 +19,29 @@ variable "my_machine_type" {
 }
 
 variable "cidr" {
-  type    = string
+  type = string
 }
 
 variable "cred_file" {
-  type    = string
+  type = string
 }
 
 variable "test2_startup" {
-  type    = string
+  type = string
 }
 
 variable "max_replicas" {
-  type = string
+  type    = string
   default = "3"
 }
 
 variable "min_replicas" {
-  type = string
+  type    = string
   default = "1"
 }
 
 variable "cooldown" {
-  type = string
+  type    = string
   default = "60"
 }
 
